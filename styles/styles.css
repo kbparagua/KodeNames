@@ -4,7 +4,8 @@ a:hover {color: black;}     /* mouse over link */
 a:active {color: black;}    /* selected link */
 
 html {
-	font-family : "Verdana";
+	font-family : Helvetica;
+  background: #34495e;
 }
 
 #board {
@@ -12,7 +13,7 @@ html {
 }
 
 button, input, span#first {
-	font-size : 1.3em;	
+	font-size : 1.3em;
 }
 
 #board {
@@ -25,7 +26,8 @@ button, input, span#first {
 }
 
 #board div.row {
-	height : 20%;
+	height : 19%;
+  margin-bottom: 4px;
 }
 
 #board div.word {
@@ -33,14 +35,18 @@ button, input, span#first {
 	text-align : center;
 	vertical-align : middle;
 	cursor : pointer;
-	border : 2px #DDDDDD solid;
-	border-radius : 5px;
 	font-weight : bold;
 	width : 19%;
 	height : 99%;
 	display : inline-block;
 	line-height : 99%;
+  background: #7f8c8d;
+  margin-right: 3px;
+}
 
+#board .word a {
+  color: white;
+  text-decoration: none;
 }
 
 #board div.word div {
@@ -83,11 +89,11 @@ button, input, span#first {
 	float : right;
 }
 #movieCheck {
-	float : right;	
+	float : right;
 }
 
 #confirmText {
-	float : right;	
+	float : right;
 }
 #google_translate_element {
 	float: right;
@@ -101,7 +107,7 @@ button, input, span#first {
   position: absolute;
   overflow: hidden;
   top: -10px;
- 
+
 }
 
 .redStarts{
